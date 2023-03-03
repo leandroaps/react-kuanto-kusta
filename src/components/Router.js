@@ -1,12 +1,12 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-import Loader from './Loader.jsx'
+import Loader from './Loader'
 
-const Cart = React.lazy(() => import('../pages/Cart.jsx'))
-const Details = React.lazy(() => import('../pages/Details.jsx'))
-const Products = React.lazy(() => import('../pages/Products.jsx'))
-const Error = React.lazy(() => import('../pages/Error.jsx'))
+const Cart = React.lazy(() => import('../pages/Cart'))
+const Details = React.lazy(() => import('../pages/Details'))
+const Products = React.lazy(() => import('../pages/Products'))
+const Error = React.lazy(() => import('../pages/Error'))
 
 const Router = () => {
   return (

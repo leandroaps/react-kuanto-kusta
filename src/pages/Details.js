@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 
 const Cart = () => {
   const [Details, setDetails] = useState()
@@ -15,8 +15,8 @@ const Cart = () => {
   return (
     <>
       <h1>DETAILS</h1>
-      <h2>{Details?.title}</h2>
-      <p>{Details?.description}</p>
+      <h2>{Details.title}</h2>
+      <p>{Details.description}</p>
     </>
   )
 }

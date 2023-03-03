@@ -1,15 +1,21 @@
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 
-import Header from './components/Header.jsx'
-import Router from './components/Router.jsx'
+import { BrowserRouter } from 'react-router-dom'
+
+import Header from './components/Header'
+import Router from './components/Router'
 
 const App = () => {
   return (
-    <div className="container">
-      <Header />
-      <Router />
-    </div>
+    <main className="d-flex flex-nowrap">
+      <div className="container pt-5">
+        <BrowserRouter>
+          <Header />
+          <Router />
+        </BrowserRouter>
+      </div>
+    </main>
   )
 }
 

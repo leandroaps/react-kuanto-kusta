@@ -1,10 +1,10 @@
-import '../styles/Header.scss';
+import '../styles/Header.scss'
 
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 
-import logo from '../logo.svg';
+import logo from '../assets/logo.svg'
 
 const Header = () => {
   return (
